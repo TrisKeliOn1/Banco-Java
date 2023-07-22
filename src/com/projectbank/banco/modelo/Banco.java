@@ -6,11 +6,11 @@ import java.util.List;
 
 public class Banco {
 
-    private List<Conta> contas = new ArrayList<>();
+	private List<Conta> contas = new ArrayList<>();
 
     public Banco() {
         Pessoa pessoa1 = new Pessoa("JoÃ£o da Silva", "12312312311");
-        Pessoa pessoa2 = new Pessoa("Maria das Couves", "12312312311");
+        Pessoa pessoa2 = new Pessoa("Maria das Couves", "22233344411");
 
         Conta conta1 = new ContaInvestimento(pessoa1, 222, 999);
         Conta conta2 = new ContaInvestimento(pessoa1, 123, 888);
